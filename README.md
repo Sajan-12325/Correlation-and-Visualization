@@ -7,7 +7,7 @@ The notebook consists of the following key steps:
 
 1. Data Loading and Exploration
 The dataset is loaded using pandas.read_csv().
-The first few rows are displayed using df.head().
+
 Data types of all columns are checked using df.dtypes.
 
 2. Data Preprocessing
@@ -23,15 +23,23 @@ stroke and price
 Boxplots are generated using sns.boxplot() to analyze categorical variables.
 
 4. Linear Regression Modeling
-A Linear Regression model is built using sklearn.linear_model.LinearRegression().
+A Simple Linear Regression model is built using sklearn.linear_model.LinearRegression().
 The model is trained using fit(X, y), where:
 X consists of independent variables.
 y is the target variable (price).
 Predictions are made using predict(X).
+
+Also Used Other models regression models like Multiple Linear Regression, Polynomial Regression. 
+
 
 5. Pipeline Implementation
 A data preprocessing and modeling pipeline is created using sklearn.pipeline.Pipeline.
 The pipeline includes:
 Feature scaling (StandardScaler)
 Linear Regression Model
-The model is evaluated using appropriate metrics.
+
+
+6. Model Evaluation:
+
+Using Visualization plots distplot
+Using R2_score and Mean Squared Error
