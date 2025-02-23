@@ -3,6 +3,9 @@ The dataset used is the Automobile Dataset, which is loaded from an external URL
 The project applies correlation analysis, regression plots, and machine learning models to predict car prices based on various features.
 
 Project Structure
+
+WEEK -1 
+
 The notebook consists of the following key steps:
 
 1. Data Loading and Exploration
@@ -31,6 +34,7 @@ Predictions are made using predict(X).
 
 Also Used Other models regression models like Multiple Linear Regression, Polynomial Regression. 
 
+WEEK - 2
 
 5. Pipeline Implementation
 A data preprocessing and modeling pipeline is created using sklearn.pipeline.Pipeline.
